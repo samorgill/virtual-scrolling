@@ -1,4 +1,8 @@
-# Vs
+# Virtual Scrolling in Angular 7 by Sam Orgill
+
+You can follow the tutorial on my [blog](https://medium.com/@SamOrgill/learn-how-to-us-virtual-scrolling-in-angular-7-51158dcacbd4)
+
+--
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
