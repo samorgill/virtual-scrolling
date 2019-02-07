@@ -1,0 +1,10 @@
+<!--teams.component.css-->
+<div class="container">
+  <cdk-virtual-scroll-viewport itemSize="200" class="viewport">
+    <mat-card *cdkVirtualFor="let team of teams">
+      <mat-card-title>{{team.name}}</mat-card-title>
+      <img mat-card-image [src]="team.image" [alt]="team.name">
+      <mat-card-content>League {{team.league}}</mat-card-content>
+    </mat-card>
+  </cdk-virtual-scroll-viewport>
+</div>
